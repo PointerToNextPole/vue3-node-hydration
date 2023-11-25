@@ -11,6 +11,9 @@ dependencies:
   vue:
     specifier: ^3.3.9
     version: 3.3.9
+  vue-router:
+    specifier: ^4.2.5
+    version: 4.2.5(vue@3.3.9)
 
 devDependencies:
   '@babel/preset-env':
@@ -1317,6 +1320,10 @@ packages:
     dependencies:
       '@vue/compiler-dom': 3.3.9
       '@vue/shared': 3.3.9
+
+  /@vue/devtools-api@6.5.1:
+    resolution: {integrity: sha512-+KpckaAQyfbvshdDW5xQylLni1asvNSGme1JFs8I1+/H5pHEhqUKMEQD/qn3Nx5+/nycBq11qAEi8lk+LXI2dA==}
+    dev: false
 
   /@vue/reactivity-transform@3.3.9:
     resolution: {integrity: sha512-HnUFm7Ry6dFa4Lp63DAxTixUp8opMtQr6RxQCpDI1vlh12rkGIeYqMvJtK+IKyEfEOa2I9oCkD1mmsPdaGpdVg==}
@@ -3131,6 +3138,15 @@ packages:
       watchpack: 2.4.0
       webpack: 5.89.0(webpack-cli@5.1.4)
     dev: true
+
+  /vue-router@4.2.5(vue@3.3.9):
+    resolution: {integrity: sha512-DIUpKcyg4+PTQKfFPX88UWhlagBEBEfJ5A8XDXRJLUnZOvcpMF8o/dnL90vpVkGaPbjvXazV/rC1qBKrZlFugw==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.5.1
+      vue: 3.3.9
+    dev: false
 
   /vue@3.3.9:
     resolution: {integrity: sha512-sy5sLCTR8m6tvUk1/ijri3Yqzgpdsmxgj6n6yl7GXXCXqVbmW2RCXe9atE4cEI6Iv7L89v5f35fZRRr5dChP9w==}
